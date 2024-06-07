@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class FourLegAnimal : MonoBehaviour
+public abstract class FourLegAnimal : Animal
 {
-    int legCount = 4;
-    int tailCount = 1;
-
-    protected abstract string MakeSound();
-    void IsHasTeeth()
+    public virtual bool IsHasFur()
     {
-
+        return true;
     }
 
-    void IsHasFur()
-    { }
+    public override int CountLeg()
+    {
+        return 4;
+    }
 }

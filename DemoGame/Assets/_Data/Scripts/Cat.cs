@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class Cat : FourLegAnimal
 {
+    public override string GetName()
+    {
+        return "Tom";
+    }
+
     // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    protected override string MakeSound()
+    public override string MakeSound()
     {
         string sound = ("meow meow");
         return sound;

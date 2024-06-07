@@ -2,21 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dog : FourLegAnimal
+public class Chicken : Bird
 {
     public override string GetName()
     {
-        return "Dogg";
+        return "Chick";
     }
 
     public override string MakeSound()
     {
-        string sound = ("Gow gow");
-        return sound;
-    }
-
-    void GuardHouse()
-    {
-
+        return "Of os o";
     }
 }
