@@ -13,4 +13,8 @@ public class Chicken : Bird
     {
         return "Of os o";
     }
+    protected override void RandomWeight()
+    {
+        this.weight = Random.Range(1f, 3f);
+    }
 }

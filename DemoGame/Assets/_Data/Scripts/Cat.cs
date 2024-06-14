@@ -20,4 +20,9 @@ public class Cat : FourLegAnimal
     {
 
     }
+
+    protected override void RandomWeight()
+    {
+        this.weight = Random.Range(1f, 10f);
+    }
 }

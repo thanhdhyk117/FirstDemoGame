@@ -19,4 +19,9 @@ public class Dog : FourLegAnimal
     {
 
     }
+
+    protected override void RandomWeight()
+    {
+        this.weight = Random.Range(1f, 20f);
+    }
 }

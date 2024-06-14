@@ -533,6 +533,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8a4543ba7b97348aa9ee341d277d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showLog: 0
+  defaultAnimals: []
+  animals: []
+  sortByWeight: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
